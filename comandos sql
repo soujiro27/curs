@@ -1,15 +1,20 @@
 show databases
--->muestra las bases de datos
+	-->muestra las bases de datos
 create database nombre
---> crear una base de datos
+	--> crear una base de datos
 use nombreBaseDeDAtos
--->Selecciona base de datod
+	-->Selecciona base de datos
+create table nombreDeTabla
+	--> Crea una tabla
+		unsigned --> no llevara signo
+		not null --> el campo no puede ir vacio
+		default --> valor por default
+alter table add nombreColumna
+	--> añade una nueva columna a una tabla
+insert into nombreTabla(columnas) values(valores)
+	--> inserta registros en una tablas
 
-select c.alumno_id,
-b.nombre 
-from clases as c
-left join alumnos as b
-on c.alumno_id= b.alumno_id; 
+
 
 
 
