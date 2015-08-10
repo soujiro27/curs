@@ -9,6 +9,8 @@ create table nombreDeTabla
 		unsigned --> no llevara signo
 		not null --> el campo no puede ir vacio
 		default --> valor por default
+		auto_increment --> añade valor auto incrementable
+		primary key --> añade llave primaria a ese campo
 alter table add nombreColumna
 	--> añade una nueva columna a una tabla
 insert into nombreTabla(columnas) values(valores)
