@@ -1,0 +1,16 @@
+show databases
+-->muestra las bases de datos
+create database nombre
+--> crear una base de datos
+use nombreBaseDeDAtos
+-->Selecciona base de datod
+
+select c.alumno_id,
+b.nombre 
+from clases as c
+left join alumnos as b
+on c.alumno_id= b.alumno_id; 
+
+
+
+
